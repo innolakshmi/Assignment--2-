@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="PatentZ">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PatentZ</title>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <h1>🎓 Patents Awareness Portal</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#patent statistics">Patent Statistics</a></li>
+        <li><a href="#video">Learning Video</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#location">Location</a></li>
+        <li><a href="#feedback">Feedback</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" aria-label="About section">
+      <h2>About This Portal</h2>
+      <article>
+        <p>Welcome to the <strong>Patents Awareness Portal</strong> — a place to <em>gain awareness</em> on patenting culture around the world.</p>
+        <p>This portal aims <q>to spread patenting culture in India</q>. You can read articles, news and more information about patents in India. </p>
+      </article>
+    </section>
+
+    <!-- COURSES SECTION -->
+    <section id="courses" aria-label="Courses section">
+      <h2>Patent Statistics &#127891;</h2>
+      <p>Here are the latest patent stastistics around the world published by the World Intellectual Property Organization.</p>
+
+      <table border="1" cellpadding="5" cellspacing="0">
+        <caption> </caption>
+        <thead>
+          <tr>
+            <th>Country</th>
+            <th>Year</th>
+            <th>No. of Patents Published</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>China</td>
+            <td>2025</td>
+            <td>70160</td>
+          </tr>
+          <tr>
+            <td>USA</td>
+            <td>2025</td>
+            <td>54087</td>
+          </tr>
+          <tr>
+            <td>India</td>
+            <td>2025</td>
+            <td>4552</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>Note: India's Global Innovation Index has improved from 98th position to 38th position in recent 10 years. </p>
+    </section>
+
+    <!-- LEARNING VIDEO SECTION -->
+    <section id="video" aria-label="Video section">
+      <h2>Learn about Patents via cartoons 📺</h2>
+      <figure>
+    
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Bb9EBtlGx7w?si=DJBiJ_jm2mnT25KM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <figcaption>Watch this video to begin your journey of patenting!</figcaption>
+      </figure>
+    </section>
+    <hr>
+     <!-- Learn from PDF Section -->
+    <section id="learn-pdf">
+      <h2>Learn From This PDF</h2>
+      <p>You can see how a patent document appears. Here is the front page of a sample patent.</p>
+      <iframe src="Patent Front Page Sample.pdf" width="600" height="400" title="Patent Front Page"></iframe>
+      <p>If the PDF doesn't load, <a href="sample.pdf" download>click here to download</a>.</p>
+    </section>
+
+    <!-- GALLERY SECTION -->
+    <section id="gallery" aria-label="Gallery section">
+      <h2>India's Patent Gallery</h2>
+      <figure>
+        <img src="Indian Patent Office Logo.jpeg" alt="Indian Patent Office Logo" width="200" height="200">
+        <figcaption> Indian Patent Office Logo</figcaption>
+      </figure>
+      <figure>
+        <img src="Indian Patent Certificate.jpeg" alt="Indian Patent Certificate" width="250" height="180">
+        <figcaption>Indian Patent Certificate </figcaption>
+      </figure>
+      <figure>
+        <img src="Indian Patent Office at Chennai.jpeg" alt="Indian Patent Office at Chennai" width="250" height="180">
+        <figcaption>Indian Patent Office at Chennai</figcaption>
+      </figure>
+    </section>
+
+    <!-- LOCATION SECTION -->
+    <section id="location" aria-label="Location section">
+      <h2>You can visit RGIIPM at Nagpur that offers public patent training. 🗺️</h2>
+      <p>RGIIPM is located at:</p>
+    
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721.1168957062046!2d79.07106487525992!3d21.147745780531533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c0f265187ed5%3A0x1c9124cac5a86330!2sRajiv%20Gandhi%20National%20Institute%20of%20Intellectual%20Property%20Management!5e0!3m2!1sen!2sin!4v1760022187542!5m2!1sen!2sin" 
+        width="600" height="300" style="border:0;" allowfullscreen loading="lazy"
+        title="Google Map showing RGIIPM location">
+      </iframe>
+    </section>
+
+    <!-- AUDIO SECTION -->
+    <section id="audio" aria-label="Audio section">
+      <h2>Learn creativity tips for patenting by just listening 🎧</h2>
+      <audio controls>
+        <source src="What is a Patent.m4a" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </section>
+
+    <!-- FEEDBACK FORM SECTION -->
+    <section id="feedback" aria-label="Feedback form section">
+      <h2>Learner's Feedback Form</h2>
+      <form action="submit_feedback.html" method="post" autocomplete="on">
+        
+        <fieldset>
+          <legend>👤 Learner Information</legend>
+          <label for="name">Full Name:</label>
+          <input type="text" id="name" name="fullname" placeholder="Enter your name" required><br><br>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="example@mail.com" required><br><br>
+
+          <label for="course">Select What you liked:</label>
+          <input list="courses" id="course" name="course">
+          <datalist id="courses">
+            <option value="HTML & Web Structure">
+            <option value="CSS Styling & Design">
+            <option value="JavaScript for Beginners">
+          </datalist><br><br>
+
+          <label for="learning-date">Learning Date:</label>
+          <input type="date" id="learning-date" name="learning-date"><br><br>
+        </fieldset>
+
+        <fieldset>
+          <legend>💬 Feedback Details</legend>
+          <label for="rating">Rate Your Portal Experience (1–10):</label>
+          <input type="range" id="rating" name="rating" min="1" max="10" value="5"><br><br>
+
+          <p>Would you recommend this portal to others?</p>
+          <input type="radio" id="yes" name="recommend" value="yes" required>
+          <label for="yes">Yes</label>
+          <input type="radio" id="no" name="recommend" value="no">
+          <label for="no">No</label><br><br>
+
+          <label for="photo">Upload Your Learning Screenshot:</label>
+          <input type="file" id="photo" name="photo" accept="image/*"><br><br>
+
+          <label for="comments">Your Comments:</label><br>
+          <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Write your feedback..." required></textarea><br><br>
+        </fieldset>
+
+        <input type="submit" value="Submit Feedback">
+        <input type="reset" value="Clear Form">
+      </form>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 PatentZ; | All Rights Reserved</p>
+    <p>Follow us on: 
+      <a href="https://www.linkedin.com/in/innolakshmi" target="_blank">LinkedIn</a> |
+      <a href="mailto:innolakshmi@gmail.com">Email Us</a>
+    </p>
+  </footer>
+
+</body>
+</html>
